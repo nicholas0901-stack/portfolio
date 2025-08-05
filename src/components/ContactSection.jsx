@@ -35,7 +35,7 @@ export default function ContactSection() {
             <FaMapMarkerAlt className="text-blue-400 mr-4" />
             <div>
               <p className="text-sm text-gray-400">Location</p>
-              <p className="font-medium">Singapore 640747</p>
+              <p className="font-medium">Singapore</p>
             </div>
           </div>
         </div>
