@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen bg-white text-black dark:bg-[#0D1117] dark:text-white flex flex-col items-center justify-center text-center px-6 sm:px-12 lg:px-20 overflow-hidden transition-colors duration-500">
+     <section id="hero" className="bg-[#0D1117] text-white py-16 px-6 lg:px-32">
       {/* ✨ Sparkle effect background */}
       <motion.div
         className="absolute top-0 left-0 w-full h-full"
