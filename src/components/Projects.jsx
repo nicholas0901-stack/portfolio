@@ -34,7 +34,7 @@ const projects = [
       "Node.js",
     ],
     code: "#",
-    demo: "#",
+    demo: "http://54.160.151.72/",
   },
 ];
 
