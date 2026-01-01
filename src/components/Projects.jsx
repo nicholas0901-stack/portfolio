@@ -19,23 +19,6 @@ const projects = [
     code: "https://github.com/nicholas0901-stack/CSIT314_cleaning-main/tree/main",
     demo: "https://csit314-cleaning-main.onrender.com",
   },
-  {
-    title: "Cloud Native Web App Deployment on AWS",
-    description:
-      "Web application deployed with AWS microservices: EC2 (hosting), S3 (storage), Route 53 (DNS), CloudWatch (monitoring), and NGINX for reverse proxy/load balancing.",
-    tags: [
-      "AWS",
-      "EC2",
-      "S3",
-      "Route 53",
-      "NGINX",
-      "Docker",
-      "HTML/CSS",
-      "Node.js",
-    ],
-    code: "#",
-    demo: "http://54.160.151.72/",
-  },
 ];
 
 // Static tag list for display (no filtering logic here)
@@ -47,11 +30,6 @@ const tagCloud = [
   "Express.js",
   "SQLite",
   "Docker",
-  "AWS",
-  "EC2",
-  "S3",
-  "NGINX",
-  "Route 53",
   "Git",
   "Scrum",
   "HTML/CSS",
@@ -96,7 +74,9 @@ export default function Projects() {
                 <h3 className="text-lg font-semibold text-blue-300">
                   {project.title}
                 </h3>
-                <p className="text-gray-400 text-sm mt-2">{project.description}</p>
+                <p className="text-gray-400 text-sm mt-2">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   {project.tags.map((tag, idx) => (
                     <span
@@ -108,6 +88,7 @@ export default function Projects() {
                   ))}
                 </div>
               </div>
+
               <div className="flex gap-6 mt-4 text-blue-400 text-sm">
                 <a
                   href={project.code}
