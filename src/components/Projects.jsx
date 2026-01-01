@@ -19,6 +19,23 @@ const projects = [
     code: "https://github.com/nicholas0901-stack/CSIT314_cleaning-main/tree/main",
     demo: "https://csit314-cleaning-main.onrender.com",
   },
+  {
+    title: "Cloud Native Web App Deployment on AWS",
+    description:
+      "Web application deployed with AWS microservices: EC2 (hosting), S3 (storage), Route 53 (DNS), CloudWatch (monitoring), and NGINX for reverse proxy/load balancing.",
+    tags: [
+      "AWS",
+      "EC2",
+      "S3",
+      "Route 53",
+      "NGINX",
+      "Docker",
+      "HTML/CSS",
+      "Node.js",
+    ],
+    code: "#",
+    demo: "http://54.160.151.72/",
+  },
 ];
 
 // Static tag list for display (no filtering logic here)
