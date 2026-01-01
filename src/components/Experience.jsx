@@ -16,7 +16,7 @@ const experiences = [
       "Managed clustered servers and deployed secure infrastructure.",
       "Delivered Level 1 and Level 2 application support.",
       "Deployed and maintained infrastructure components.",
-      "Automated workflows and infrastructure deployments using Ansible, reducing manual effort and configuration errors.",
+      "Automated workflows and infrastructure deployments using Ansible",
     ],
   },
   {
