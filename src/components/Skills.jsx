@@ -40,10 +40,11 @@ const skillCategories = [
     icon: <FaCogs className="text-blue-400" />,
     skills: [
       "Ansible",
-      "Infrastructure as Code (IaC)",
-      "Configuration management",
-      "CI/CD fundamentals",
-      "Automation scripting",
+      "Terraform (On-going Learning)",
+      "Jenkins (On-going Learning) ",
+      "Kubernetes (On-going Learning)",
+      "Powershell automation",
+      "Bash Scripting",
     ],
   },
   {
@@ -59,7 +60,6 @@ const skillCategories = [
       "Windows Server 2022",
       "Active Directory",
       "Patching",
-      "PowerShell automation",
     ],
   },
   {
