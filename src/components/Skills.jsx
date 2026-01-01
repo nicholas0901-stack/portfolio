@@ -76,17 +76,6 @@ const skillCategories = [
       "Algorithms",
     ],
   },
-   {
-    title: "Automation & DevOps",
-    icon: <FaCogs className="text-blue-400" />,
-    skills: [
-      "Ansible",
-      "Infrastructure as Code (IaC)",
-      "Configuration management",
-      "CI/CD fundamentals",
-      "Automation scripting",
-    ],
-  },
 ];
 
 export default function Skills() {
